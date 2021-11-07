@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: burlywood;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    background-color: #fff;
+    height: 570px;
+    width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.465);
+}
+.form-box h1{
+    text-align: center;
+    color: gray;
+}
+form{
+    margin-left: 33px;
+}
+
+form label{
+    font-size: 20px;
+    color: gray;
+    border-color: black;
+    margin-top: 2px;
+}
+form label:hover{
+    color: rgba(248, 162, 1, 0.945);
+}
+.main{
+    color: rgba(0, 0, 0, 0.904);
+}
+.main:hover{
+    color: black;
+}
+hr{
+    width: 300px;
+    border: 3px solid orange;
+    border-radius: 3px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+input{
+    
+    font-size: 23px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+input:focus{
+    background-color: rgb(252, 246, 233);
+    outline: none;
+    border-color: rgba(248, 162, 1, 0.945);
+    
+}
+input:hover{
+    border-color: rgba(248, 162, 1, 0.945);
+}
+input[type="datetime-local"]{
+    width: 300px;
+}
+input[type="radio"],[type="checkbox"]{
+    margin-left: 4px;
+}
+input[type="radio"],[type="checkbox"]:hover{
+    outline:  rgb(255, 166, 0);
+}
+input[type="datetime-local"]{
+    margin-top: 5px;
+}
+select{
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+select:hover{
+    border-color: rgba(248, 162, 1, 0.945);
+}
+select:focus{
+    outline: none;
+}
+#btn{
+    width: 300px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(248, 162, 1, 0.945);
+    border: none;
+}
+#btn:hover{
+    background-color: rgb(187, 145, 67);
+}
+input:required:focus{
+    border-color: red;
+}
+.thanks-container h1{
+    font-size: 60px;
+    color: #fff;
+}
+.thanks-container h2{
+    font-size: 40px;
+    color: rgba(238, 255, 2, 0.945);
+    margin-bottom: 20px;
+    
+}
+.thanks-container a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(248, 162, 1, 0.945);
+}
+.thanks-container a:hover{
+    background-color: rgb(187, 145, 67);
+}
+

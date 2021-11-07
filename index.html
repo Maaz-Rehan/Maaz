@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-box">
+        <h1>Enter Information</h1>
+        <hr>
+        <form action="./submit.html">
+            <label for="Ename"><input type="text" placeholder="Enter Name" id="Ename"></label>
+            <br>
+            <label for="Epassword"><input type="password" placeholder="Enter Password" required
+                    id="Epassword"></label>
+            <br>
+            <label for="Eemail"><input type="email" placeholder="Enter E.mail" id="Eemail" required></label>
+            <br>
+            <label for="Eage"><input type="number" placeholder="Enter Age" id="Eage"></label>
+            <br>
+            <label class="main">Gender <br>
+                <label for="male">Male<input type="radio" name="gender" id="male"></label>
+                <label for="female">Female<input type="radio" name="gender" id="female"></label>
+                <label for="others">Others<input type="radio" name="gender" id="others"></label>
+            </label>
+            <br>
+            <label for="" class="main"> Hobbies <br>
+                <label for="football">Football<input type="checkbox" id="football"></label>
+                <label for="cricket">Cricket<input type="checkbox" id="cricket"></label>
+                <label for="hockey">Hockey<input type="checkbox" id="hockey"></label>
+                <label for="swiming">Swiming<input type="checkbox" id="swiming"></label>
+            </label>
+            <br>
+            <label for=""></label>
+            <select name="" id="">
+                <option value="" selected>Pakistan</option>
+                <option value="">China</option>
+                <option value="">Afganistan</option>
+                <option value="">Iran</option>
+            </select>
+            <br>
+            <label for="" class="main">Date <br><input type="datetime-local"></label>
+            <br>
+            <input id="btn" type="submit" required>
+        </form>
+    </div>
+</body>
+
+</html>
